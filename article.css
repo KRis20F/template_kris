@@ -1,0 +1,80 @@
+img {
+    width: 100%;
+}
+
+.display-text {
+    padding: 60px 0px;
+}
+
+.display-text > .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-p {
+    width: 60%;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.thumbnail-img img{
+    width: 100%;
+}
+
+.references {
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    border-radius: 39px ;
+}
+
+.references h4 {
+    text-align: center;
+    background-color: #fff;
+    padding: 23px 0;
+    margin: 0;
+    color: #000;
+    border-top-right-radius: 39px;
+}
+
+.box-info_content {
+    font-size: 0.9em;
+}
+
+.box-info_content a {
+    padding: 14px 35px;
+}
+
+.box-info_content a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 13px;
+}
+
+.title {
+    position: absolute;
+    top: 325px;
+    left: 4px;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: monospace;
+    overflow: hidden; /* Para que no se vea el contenido antes de la animacion */
+    margin: 0 auto; 
+    letter-spacing: .80em; /* Ajustar segun necesidad */
+    text-shadow: -3px 4px black;
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .3s step-end infinite;
+}
+
+/* machine a ecrire effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
